@@ -1,6 +1,22 @@
 # BMI Calculator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+[![Support me on Boosty](https://img.shields.io/badge/Boosty-Support%20me-%23f15f2c?style=for-the-badge)](https://boosty.to/theEvilGrinch/donate)
+[![Donate](https://img.shields.io/badge/Donate-%23702ff4?style=for-the-badge)](https://yoomoney.ru/to/410016288289737)
+
 This is a simple command-line Body Mass Index (BMI) calculator written in Go. This project serves as a "Hello, World!" to the Go programming language, demonstrating basic concepts like variable declaration, user input, mathematical calculations, and conditional logic with `switch`.
+
+## Table of Contents
+
+- [How It Works](#how-it-works)
+- [Prerequisites](#prerequisites)
+- [How to Run](#how-to-run)
+  - [Option 1: Using `go run`](#option-1-using-go-run)
+  - [Option 2: Building the Executable](#option-2-building-the-executable)
+  - [Example](#example)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## How It Works
 
@@ -66,3 +82,15 @@ Enter your height in meters (e.g., 1.8): 1.8
 Enter your weight in kilograms: 75
 Your Body Mass Index: 23 (normal weight)
 ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Maintained by [@theEvilGrinch](https://github.com/theEvilGrinch)
