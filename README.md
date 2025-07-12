@@ -21,7 +21,7 @@ This is a simple command-line Body Mass Index (BMI) calculator written in Go. Th
 ## How It Works
 
 The program performs the following steps:
-1.  Prompts the user to enter their height in meters.
+1.  Prompts the user to enter their height in centimeters.
 2.  Prompts the user to enter their weight in kilograms.
 3.  Validates user input to ensure it is a positive number, handling potential errors from non-numeric entries or non-positive values.
 4.  Calculates the BMI using the standard formula.
@@ -78,9 +78,9 @@ This command compiles the source code into a single executable file that you can
 
 ```
 	Body Mass Index Calculator
-Enter your height in meters (e.g., 1.8): 1.8
+Enter your height in meters (e.g., 180): 175
 Enter your weight in kilograms: 75
-Your Body Mass Index: 23 (normal weight)
+Your Body Mass Index: 24 (normal weight)
 ```
 
 ## Contributing

@@ -12,10 +12,10 @@ func main() {
 		userHeight float64
 	)
 	fmt.Println("\tBody Mass Index Calculator")
-	fmt.Print("Enter your height in meters (e.g., 1.8): ")
+	fmt.Print("Enter your height in centimeters (e.g., 180): ")
 	_, err := fmt.Scanln(&userHeight)
 	if err != nil || userHeight <= 0 {
-		fmt.Println("Error: Please enter a positive number greater than zero for your height in meters")
+		fmt.Println("Error: Please enter a positive number greater than zero for your height in centimeters")
 		return
 	}
 	fmt.Print("Enter your weight in kilograms: ")
@@ -24,9 +24,8 @@ func main() {
 		fmt.Println("Error: Please enter a positive number greater than zero for your weight in kilograms")
 		return
 	}
-	bmi := userWeight / math.Pow(userHeight, bmiPower)
-	fmt.Print("Your Body Mass Index: ")
-	fmt.Print(math.Round(bmi), " ")
+	bmi := userWeight / math.Pow(userHeight/100, bmiPower)
+	fmt.Printf("Your Body Mass Index: %.0f ", bmi)
 
 	switch {
 	case bmi < 16:
